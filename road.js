@@ -22,7 +22,7 @@ class Road {
         this.right,
         i/this.laneCount
       );
-      
+
       ctx.beginPath();
       ctx.moveTo(x, this.top);
       ctx.lineTo(x, this.bottom);
@@ -30,8 +30,4 @@ class Road {
     }
 
   }
-}
-
-function lerp(A, B, t) {
-  return A + (B - A) * t;
 }
